@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="StandartButtonBackground">#272B2F</SolidColorBrush>
+
+    <SolidColorBrush x:Key="PageBackground">#121412</SolidColorBrush>
+    
+    <SolidColorBrush x:Key="PrimaryBackground">#0e110e</SolidColorBrush>
+    <Color x:Key="PrimaryBackgroundColor">#FF0e110e</Color>
+
+    <SolidColorBrush x:Key="ToolBarBackgroudn">#151715</SolidColorBrush>
+
+    <SolidColorBrush x:Key="PanelBackground">#1a1e1b</SolidColorBrush>
+    
+    <SolidColorBrush x:Key="SelectedPanelBackground">#252724</SolidColorBrush>
+    <Color x:Key="SelectedPanelBackgroundColor">#FF252724</Color>
+    
+    <SolidColorBrush x:Key="SpecialElements1">#b579f3</SolidColorBrush>
+    <Color x:Key="SpecialElements1_Color">#FFb579f3</Color>
+    
+    <SolidColorBrush x:Key="SpecialElements2">#13f2c1</SolidColorBrush>
+    <Color x:Key="SpecialElements2_Color">#FF13f2c1</Color>
+    
+    <SolidColorBrush x:Key="StandartColorText">White</SolidColorBrush>
+    <SolidColorBrush x:Key="AdditionalTextColor">#727572</SolidColorBrush>
+    <SolidColorBrush x:Key="TextFielBackgroud">Transparent</SolidColorBrush>
+</ResourceDictionary>

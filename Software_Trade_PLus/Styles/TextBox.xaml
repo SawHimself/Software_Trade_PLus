@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="TextField"
+           TargetType="TextBox">
+
+        <Setter Property="VerticalAlignment"
+                Value="Center" />
+        <Setter Property="Margin"
+                Value="0,5,0,0" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource StandartColorText}"/>
+        <Setter Property="Background"
+                Value="{DynamicResource TextFielBackgroud}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="IsHitTestVisible" Value="False"/>
+        <Setter Property="Cursor" Value="None"/>
+    </Style>
+
+    <Style x:Key="AdditionalTextField"
+           TargetType="TextBox">
+
+        <Setter Property="VerticalAlignment"
+                Value="Center" />
+        <Setter Property="Margin"
+                Value="0,5,0,0" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource AdditionalTextColor }"/>
+        <Setter Property="Background"
+                Value="{DynamicResource TextFielBackgroud}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="IsHitTestVisible" Value="False"/>
+        <Setter Property="Cursor" Value="None"/>
+    </Style>
+
+    <Style x:Key="EntryField" TargetType="TextBox">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="CaretBrush" Value="White"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Border Background="Transparent"
+                            BorderBrush="White"
+                            BorderThickness="1"
+                            CornerRadius="10"
+                            Height="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=ActualHeight}">
+                        <ScrollViewer x:Name="PART_ContentHost"
+                                  Padding="{TemplateBinding Padding}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

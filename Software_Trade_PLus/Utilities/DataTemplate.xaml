@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:Software_Trade_PLus.ViewModel"
+                    xmlns:view="clr-namespace:Software_Trade_PLus.View">
+
+    <DataTemplate DataType="{x:Type vm:HomeVM}">
+        <view:Home />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ListOfClientProductsVM}">
+        <view:ListOfClientProducts />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ListOfClientsVM}">
+        <view:ListOfClients />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ListOfManagerClientsVM}">
+        <view:ListOfManagerClients />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ListOfManagersVM}">
+        <view:ListOfManagers />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ListOfProductsVM}">
+        <view:ListOfProducts />
+    </DataTemplate>
+</ResourceDictionary>

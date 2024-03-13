@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=SoftwareTradePLusDB_v_5db.db"
+  }
+}
