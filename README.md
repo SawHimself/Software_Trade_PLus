@@ -40,4 +40,14 @@
 
 ### Диаграмма базы данных:  
 
-<img src="https://github.com/SawHimself/Software_Trade_PLus/blob/master/screenshots/DataBaseDiagramm.png">
+<img src="https://github.com/SawHimself/Software_Trade_PLus/blob/master/screenshots/DataBaseDiagramm.png">  
+
+
+Файл конфигурации, в которой располагается строка подключения к базе данных: DataBaseSettings.json
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=SoftwareTradePLusDB_v_5db.db"
+  }
+}
+```
